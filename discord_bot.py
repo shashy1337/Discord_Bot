@@ -93,7 +93,7 @@ async def list_servers():
         await asyncio.sleep(600)
 
 
- try:
+try:
     for extension in same_extension:
         bot.load_extension(extension)
 except Exception as e:
