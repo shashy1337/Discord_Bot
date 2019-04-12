@@ -93,12 +93,11 @@ async def list_servers():
         await asyncio.sleep(600)
 
 
-if __name__ == '__main__':
-    try:
-        for extension in same_extension:
-            bot.load_extension(extension)
-    except Exception as e:
-        exc = '{}, {}'.format(type(e).__name__, e)
-        print('Ошибка загрузки расширений {} \n{}'.format(extension, exc))
-    bot.loop.create_task(list_servers())
-    bot.run(TOKEN)
+ try:
+    for extension in same_extension:
+        bot.load_extension(extension)
+except Exception as e:
+    exc = '{}, {}'.format(type(e).__name__, e)
+    print('Ошибка загрузки расширений {} \n{}'.format(extension, exc))
+bot.loop.create_task(list_servers())
+bot.run(TOKEN)
