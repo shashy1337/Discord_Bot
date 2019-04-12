@@ -7,7 +7,7 @@ import asyncio
 
 
 bot_prefix = ('!')
-TOKEN = ''
+TOKEN = 'NDM3MTY2NjMzOTI5MTQ2MzY5.Dxuocg.eR9dhzN55AH1yWw_xEAp-frluTs'
 
 bot = Bot(command_prefix = bot_prefix)
 same_extension = ['music']
@@ -31,7 +31,7 @@ async def humoreska():
         response = response.json()
         return response
 
-    access_token = ''
+    access_token = 'c35a6cceee29afe085548e92e847429b59fc8c0f199e4e63e536247903603715d1287e003f5055adaf988'
     owner_id = '-92876084'
     count = 100
     version = '5.92'
