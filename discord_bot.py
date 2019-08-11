@@ -31,7 +31,7 @@ async def humoreska():
         response = response.json()
         return response
 
-    access_token = 'f0853a343ac7b97b52b709ed5037dd894dae3bfa658b8e651992f89a23ca582339b3f624455307ec4432a'
+    access_token = 'ef5cb999b112adbf1d03217bac71d1dcd0a1e303a0532e7036e2eb39d842272e9d4d117a56d944660e95a'
     owner_id = '-92876084'
     count = 100
     version = '5.92'
