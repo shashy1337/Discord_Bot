@@ -7,7 +7,7 @@ import asyncio
 
 
 bot_prefix = ('!')
-TOKEN = 'NDM3MTY2NjMzOTI5MTQ2MzY5.XVhZGQ.OGe8uj6f7ttTFmsbXaGd4iUq1Ko'
+TOKEN = ''
 
 bot = Bot(command_prefix = bot_prefix)
 same_extension = ['music']
